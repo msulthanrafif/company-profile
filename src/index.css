@@ -1,0 +1,669 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 96px;
+  width: 1280px;
+}
+
+.header .overlap-group {
+  background-image: url(img/rectangle.svg);
+  background-size: 100% 100%;
+  height: 96px;
+  position: relative;
+  width: 1280px;
+}
+
+.header .group {
+  background-image: url(img/frame.svg);
+  background-size: 100% 100%;
+  height: 41px;
+  left: 53px;
+  position: absolute;
+  top: 25px;
+  width: 206px;
+}
+
+.header .overlap {
+  background-color: #ffffff;
+  height: 96px;
+  left: 1182px;
+  position: absolute;
+  top: 0;
+  width: 98px;
+}
+
+.header .burger {
+  height: 25px;
+  left: 30px;
+  position: absolute;
+  top: 35px;
+  width: 40px;
+}
+
+.FOOTER {
+  height: 461px;
+  width: 1280px;
+}
+
+.FOOTER .overlap {
+  background-color: #06477a;
+  height: 461px;
+  left: -1px;
+  position: relative;
+  width: 1289px;
+}
+
+.FOOTER .LOCATION {
+  height: 280px;
+  left: 83px;
+  position: absolute;
+  top: 135px;
+  width: 419px;
+}
+
+.FOOTER .div {
+  background-color: #ffffff;
+  height: 280px;
+  position: relative;
+}
+
+.FOOTER .AREA-SELECTION {
+  height: 45px;
+  left: 31px;
+  position: absolute;
+  top: 29px;
+  width: 360px;
+}
+
+.FOOTER .overlap-group {
+  background-image: url(img/rectangle2.svg);
+  background-size: 100% 100%;
+  height: 45px;
+  position: relative;
+  width: 358px;
+}
+
+.FOOTER .vector {
+  height: 9px;
+  left: 322px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.FOOTER .text-wrapper {
+  color: #00537b;
+  font-family: "Rubik-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 26px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+  width: 237px;
+}
+
+.FOOTER .ADDRESS {
+  height: 105px;
+  left: 37px;
+  position: absolute;
+  top: 121px;
+  width: 231px;
+}
+
+.FOOTER .jl-lembong-no-kel {
+  color: #249fd7;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 229px;
+}
+
+.FOOTER .group {
+  height: 45px;
+  left: 82px;
+  position: absolute;
+  top: 45px;
+  width: 228px;
+}
+
+.FOOTER .MENU {
+  height: 164px;
+  left: 601px;
+  position: absolute;
+  top: 135px;
+  width: 121px;
+}
+
+.box {
+  height: 440px;
+  position: relative;
+  width: 1280px;
+}
+
+.box .group {
+  background-color: #ffffff;
+  height: 440px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 1280px;
+}
+
+.box .overlap-group-wrapper {
+  height: 393px;
+  left: 90px;
+  position: absolute;
+  top: 26px;
+  width: 306px;
+}
+
+.box .overlap-group {
+  height: 393px;
+  position: relative;
+  width: 304px;
+}
+
+.box .rectangle {
+  background-color: #ffffff;
+  height: 324px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 302px;
+}
+
+.box .WHO-WE-ARE {
+  height: 165px;
+  left: 0;
+  position: absolute;
+  top: 228px;
+  width: 303px;
+}
+
+.box .text-wrapper {
+  color: #777777;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 0.14px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 298px;
+}
+
+.box .div {
+  color: #000000;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 293px;
+}
+
+.box .text-wrapper-2 {
+  color: #029fe4;
+  font-family: "Rubik-Medium", Helvetica;
+  font-size: 36px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 196px;
+  white-space: nowrap;
+  width: 299px;
+}
+
+.box .img {
+  height: 144px;
+  left: 65px;
+  position: absolute;
+  top: 31px;
+  width: 163px;
+}
+
+.box .overlap-wrapper {
+  height: 393px;
+  left: 488px;
+  position: absolute;
+  top: 26px;
+  width: 306px;
+}
+
+.box .div-wrapper {
+  height: 393px;
+  left: 886px;
+  position: absolute;
+  top: 26px;
+  width: 306px;
+}
+
+.box2 {
+  height: 625px;
+  width: 1280px;
+}
+
+.box2 .group {
+  height: 625px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 1282px;
+}
+
+.box2 .overlap-group {
+  background-image: url(img/Rectangle159.svg);
+  background-size: 100% 100%;
+  height: 625px;
+  left: 3px;
+  position: relative;
+  width: 1277px;
+}
+
+.box2 .div {
+  height: 10px;
+  left: 479px;
+  position: absolute;
+  top: 576px;
+  width: 323px;
+}
+
+.box2 .ARROW {
+  height: 15px;
+  left: 302px;
+  position: absolute;
+  top: -2px;
+  width: 21px;
+}
+
+.box2 .img {
+  height: 15px;
+  left: -1px;
+  position: absolute;
+  top: -2px;
+  width: 21px;
+}
+
+.box2 .group-2 {
+  height: 10px;
+  left: 107px;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.box2 .ellipse {
+  border: 2px solid;
+  border-color: #3d46a2;
+  border-radius: 5.04px/5px;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.box2 .ellipse-2 {
+  background-color: #daf2fb;
+  border-radius: 4.03px/4px;
+  height: 8px;
+  left: 26px;
+  position: absolute;
+  top: 1px;
+  width: 8px;
+}
+
+.box2 .ellipse-3 {
+  background-color: #daf2fb;
+  border-radius: 4.03px/4px;
+  height: 8px;
+  left: 50px;
+  position: absolute;
+  top: 1px;
+  width: 8px;
+}
+
+.box2 .ellipse-4 {
+  background-color: #daf2fb;
+  border-radius: 4.03px/4px;
+  height: 8px;
+  left: 75px;
+  position: absolute;
+  top: 1px;
+  width: 8px;
+}
+
+.box2 .ellipse-5 {
+  background-color: #daf2fb;
+  border-radius: 4.03px/4px;
+  height: 8px;
+  left: 99px;
+  position: absolute;
+  top: 1px;
+  width: 8px;
+}
+
+.box2 .text-wrapper {
+  color: #a6a6a6;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 479px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 457px;
+  width: 323px;
+}
+
+.box2 .group-3 {
+  height: 241px;
+  left: 236px;
+  position: absolute;
+  top: 199px;
+  width: 808px;
+}
+
+.box2 .group-4 {
+  height: 193px;
+  left: 306px;
+  position: absolute;
+  top: 8px;
+  width: 193px;
+}
+
+.box2 .group-5 {
+  height: 193px;
+  left: -4px;
+  position: absolute;
+  top: -1px;
+  width: 193px;
+}
+
+.box2 .group-6 {
+  height: 190px;
+  left: 617px;
+  position: absolute;
+  top: -4px;
+  width: 193px;
+}
+
+.box2 .text-wrapper-2 {
+  color: #000000;
+  font-family: "Rubik-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 286px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 217px;
+  width: 234px;
+}
+
+.box2 .group-7 {
+  height: 156px;
+  left: 350px;
+  position: absolute;
+  top: 43px;
+  width: 579px;
+}
+
+.box2 .p {
+  color: #2f2f2f;
+  font-family: "Rubik-Light", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  width: 575px;
+}
+
+.box2 .text-wrapper-3 {
+  color: #029fe4;
+  font-family: "Rubik-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 136px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 304px;
+}
+
+.box3 {
+  height: 614px;
+  width: 1280px;
+}
+
+.box3 .group {
+  height: 614px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 1284px;
+}
+
+.box3 .overlap-group {
+  background-color: #4097db;
+  height: 614px;
+  position: relative;
+  width: 1280px;
+}
+
+.box3 .core-values {
+  height: 305px;
+  left: 621px;
+  position: absolute;
+  top: 180px;
+  width: 526px;
+}
+
+.box3 .text-wrapper {
+  color: #ffffff;
+  font-family: "Rubik-Medium", Helvetica;
+  font-size: 36px;
+  font-weight: 500;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 58px;
+  white-space: nowrap;
+}
+
+.box3 .div {
+  color: #ffffff;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+  position: absolute;
+  top: 109px;
+  width: 370px;
+}
+
+.box3 .group-2 {
+  height: 396px;
+  left: 89px;
+  position: absolute;
+  top: 205px;
+  width: 390px;
+}
+
+.box3 .DEDICATION {
+  height: 116px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 394px;
+}
+
+.box3 .p {
+  color: #ffffff;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 44px;
+  width: 346px;
+}
+
+.box3 .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 38px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 257px;
+}
+
+.box3 .rectangle {
+  background-color: #ffffff;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 18px;
+  width: 26px;
+}
+
+.box3 .INTELLECTUAL {
+  height: 116px;
+  left: 0;
+  position: absolute;
+  top: 140px;
+  width: 394px;
+}
+
+.box3 .INTELLECTUAL-2 {
+  height: 116px;
+  left: 0;
+  position: absolute;
+  top: 280px;
+  width: 394px;
+}
+
+.box4 {
+  height: 1002px;
+  width: 1280px;
+}
+
+.box4 .banner {
+  height: 1002px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 1280px;
+}
+
+.box4 .overlap {
+  height: 1002px;
+  position: relative;
+}
+
+.box4 .benjamin-wong {
+  height: 806px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.box4 .vector {
+  height: 453px;
+  left: 3px;
+  position: absolute;
+  top: 549px;
+  width: 1277px;
+}
+
+.box4 .rectangle {
+  height: 453px;
+  left: 1px;
+  position: absolute;
+  top: 549px;
+  width: 1277px;
+}
+
+.box4 .hero-content {
+  height: 215px;
+  left: 89px;
+  position: absolute;
+  top: 677px;
+  width: 503px;
+}
+
+.box4 .overlap-group {
+  height: 215px;
+  position: relative;
+  width: 499px;
+}
+
+.box4 .discover-your-wonder {
+  color: #ffffff;
+  font-family: "Rubik-Medium", Helvetica;
+  font-size: 48px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  width: 409px;
+}
+
+.box4 .lorem-ipsum-dolor {
+  color: #ffffff;
+  font-family: "Rubik-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.24px;
+  line-height: 24px;
+  position: absolute;
+  top: 117px;
+  width: 499px;
+}
+
